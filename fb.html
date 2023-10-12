@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="" href="fb.png">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+  />
+    <title>Web Example</title>
+    <style>
+        body {
+            background-image: url(fb.png);
+            position: relative;
+        }
+        header {
+            font-size: 50px;
+            color: blue;
+        }
+        .about {
+            font-size: 25px;
+        }
+           </style>
+</head>
+
+<body>
+    <header>Facebook</header>
+    <div class="about">
+    <p class="lead my-4">
+        Facebook helps you connect and share with the people in your life.
+      </p>
+    </div>
+
+
+    <h1>Log in to existing account</h1>
+    <form>
+        <label for="email address"> E-MAIL ADDRESS OR PHONE NUMBER:</label> <br>
+        <input type="text" name="emailaddress" id="email address"
+         placeholder=" Enter E-mail or Phone number" class="form-control">
+        <br>
+        <div class="password">
+        <label for="password">PASSWORD:</label> <br>
+        <input type="password" name="password" id="password" placeholder="Enter your password"
+         class="form-control">
+        <br>
+    </div>
+
+    <button
+    class="btn btn-primary btn-lg"
+    data-bs-toggle="modal"
+    data-bs-target="#Create"
+  >
+   LOG IN
+  </button>
+    </form>
+
+    <a href="link">forgotten your password?</a>
+    <p>Or you dont have an account?,
+        <a> <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#Create"
+          >
+            Click here to sign up!
+          </button></a>
+    </p>
+    
+</body>
+</html>
